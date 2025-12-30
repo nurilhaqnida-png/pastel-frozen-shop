@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Pastel Frozen</title>
+<style>
+body{margin:0;font-family:Arial;background:#fffaf3}
+.hero{background:#f5c16c;padding:60px;text-align:center}
+.hero h1{font-size:40px}
+.hero p{font-size:18px}
+.btn{background:#2f6f4e;color:#fff;padding:15px 30px;
+text-decoration:none;border-radius:30px;font-weight:bold}
+.section{padding:60px;max-width:1000px;margin:auto}
+.card{background:#fff;padding:20px;border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.1)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px}
+img{width:100%;border-radius:20px}
+footer{background:#2f6f4e;color:#fff;text-align:center;padding:20px}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>Pastel Frozen</h1>
+<p>Pastel Gurih • Praktis • Siap Goreng Kapan Saja</p>
+<a class="btn" href="#">Pesan Sekarang</a>
+</div>
+
+<div class="section grid">
+<div>
+<h2>Kenapa Pilih Pastel Frozen Kami?</h2>
+<p>Pastel Frozen kami dibuat dari bahan segar, isian melimpah,
+tanpa pengawet, dan dibekukan secara higienis.</p>
+<ul>
+<li>✔ Renyah & gurih</li>
+<li>✔ Isi padat</li>
+<li>✔ Tahan lama di freezer</li>
+</ul>
+</div>
+<div>
+<img src="pastel.jpg">
+</div>
+</div>
+
+<div class="section">
+<h2 style="text-align:center">Varian Rasa</h2>
+<div class="grid">
+<div class="card">🥔 Kentang Wortel</div>
+<div class="card">🐔 Ayam Suwir</div>
+<div class="card">🥩 Daging Cincang</div>
+<div class="card">🌶️ Pedas Level</div>
+</div>
+</div>
+
+<footer>
+<p>© 2025 Pastel Frozen • Homemade & Halal</p>
+</footer>
+
+</body>
+</html>
+
